@@ -1,5 +1,17 @@
 # Learning log
 
+## 17-11-2026
+
+Vandaag heb ik mijn html presentatie gemaakt over fotografie.
+
+Ook heb ik de oefening over light en dark mode thuis gedaan. Hier heb ik geleerd hoe ik pagina's kan aanpassen aan de light of dark mode instelling van het systeem of met knoppen op de pagina. Ook heb ik geleerd hoe je de afbeeldingen kan aanpassen op basis van het beeldschermgrootte.
+![Lightmode](images/huiswerk/licht1.png)
+![Darkmode](images/huiswerk/donker1.png)
+
+### responsive images
+
+![Responsive Image](images/huiswerk/responsiveimage.png)
+
 ## 16-11-2026
 
 ### Onderzoek webby-ness van andere digitial gardens
