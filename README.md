@@ -1,5 +1,67 @@
 # Learning log
 
+## 18-11-2026
+
+### presenteren aan Norwin en andersom
+
+Tips van Norwin:
+
+1. categorieen maken van de fotos.
+
+Norwin:
+
+1. Interactief leren door te spelen/simuleren
+2. misschien meer visuele optische illusies
+3. leerzaam, toegankelijk, eenvoudig
+4. Simpel maken van concepten die op het eerste oog moeilijker lijken dan ze zijn.
+5. Interactieve spellen / experimenten / videos.
+6. Ik wil mijn Digital Garden laten gaan over optische illusies, kansberekeningen en de werking van menselijk brein.
+   en wil dat laten zien door interactieve spellen en elementen aan content te tonen.
+   Ik begin met een stukje eigen content over waarom het leuk en belangrijk is om over te leren . ​
+   Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door verschillende concepten aan elkaar te koppelen.
+
+Een sfeerwoord dat past bij mijn onderwerp fotografie is denk ik avontuurlijk omdat ik vooral mijn fotos op reizen maak.
+
+### 3 stappen visual research
+
+Ik heb de 3 stappen van visual research uitgevoerd. Ik heb hieruit gehaald dat ik vooral organische vormen ga gebruiken, met blauw en groene kleuren. Het moet een abstracte manier zijn van natuur weergeven.
+
+### Crazy 8
+
+Ook heb ik vandaag een crazy 8 uitgevoerd waar ik in korte tijd 8 ideeen heb geschetst voor mijn garden. Hieruit heb ik gehaald dat ik eigenlijk iets wil doen met dat er een soort filmrol per reis uit de camera komt en deze vervolgens ontwikkelt wordt en dus de fotos zichtbaar worden.
+
+### 5 schetsen
+
+Ik heb 5 mobile first schetsen gemaakt van wat ideeen van de crazy 8, ik moet nog bepalen welke ik verder uit ga werken maar dit heeft me wel op goede ideeen gebracht:
+
+![eerste 2 schetsen](images/huiswerk/5schetsen2.JPG)
+![laatste 3 schetsen](images/huiswerk/5schetsen1.JPG)
+
+### kleurenpalet
+
+Ik heb twee kleurenpalleten gemaakt, light en dark mode. Hiervoor heb ik gebruik gemaakt van de afbeeldingen van mijn visual research, vooral groen en blauw.
+![Kleuren Light mode](images/huiswerk/ColorsLightmode.png)
+![Kleuren Dark mode](images/huiswerk/ColorsDarkmode.png)
+
+### font ideeën
+
+Ik heb ook gekeken voor wat ideeën voor fonts dat ik kan gebruiken, omdat ik waarschijnlijk iets met filmrollen/polaroids wil doen in mijn ontwerp denk ik dat hier een wat 'old school' stijl fonts goed bij passen. Ik heb dus een selectie gemaakt van een aantal die mij aanspraken. Ik wil dus niet simpel modern sans serif waarschijnlijk.
+
+![Fonts](images/huiswerk/FontOpties.png)
+
+### gradients en colors practica
+
+Als laatste heb ik het practica gedaan over gradients en colors. Ik heb hier veel geleerd.
+
+![gradient oefening 1](images/huiswerk/gradients1.png)
+![gradient oefening 2](images/huiswerk/gradients2.png)
+
+### checkout
+
+1. Het gevoel dat je ontwerp kan brengen en wat voor visuele elementen daar bij horen.
+2. Kans berekeningen en optische illusies. Doormiddel van interactieve spellen/elementen
+3. Het dobbeelsteen idee waar het getal waar het op land het je brengt naar dat experiment en het verbonden web idee.
+
 ## 17-11-2026
 
 Vandaag heb ik mijn html presentatie gemaakt over fotografie.
