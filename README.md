@@ -1,5 +1,10 @@
 # Learning log
 
+## 20-11-2026
+
+batuhan:
+De stijl bepalen van zijn onderwerp, kleuren, contrast etc.
+
 ## 18-11-2026
 
 ### presenteren aan Norwin en andersom
