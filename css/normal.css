@@ -63,6 +63,7 @@ main {
   align-items: center;
 }
 
+/* filmrol styling */
 .filmrol {
   display: flex;
   flex-direction: column;
@@ -70,24 +71,44 @@ main {
   padding: 3em 3em;
   list-style: none;
   gap: 2em;
-
   width: 75%;
 
-  background:
+  /* de zwarte rand met witte gaatjes */
+
+  background-image:
     repeating-linear-gradient(
-        to bottom,
-        transparent 0 1rem,
-        white 1rem 2.5rem,
-        transparent 2.5rem 3.5rem
-      )
-      left 1rem top / 1rem 100% no-repeat,
+      to bottom,
+      transparent 0 1rem,
+      white 1rem 2.5rem,
+      transparent 2.5rem 3.5rem
+    ),
     repeating-linear-gradient(
-        to bottom,
-        transparent 0 1rem,
-        white 1rem 2.5rem,
-        transparent 2.5rem 3.5rem
-      )
-      right 1rem top / 1rem 100% no-repeat #222;
+      to bottom,
+      transparent 0 1rem,
+      white 1rem 2.5rem,
+      transparent 2.5rem 3.5rem
+    );
+
+  background-position:
+    right 1rem top,
+    left 1rem top;
+
+  background-size: 1rem 100%;
+  background-color: #222;
+  background-repeat: no-repeat;
+
+  /* Andere groottes en positites voor mobile versie */
+
+  @media (max-width: 40rem) {
+    width: 90%;
+    padding: 2em 2em;
+
+    background-position:
+      left 0.5rem top,
+      right 0.5rem top;
+
+    background-size: 0.8rem 100%;
+  }
 }
 
 /**************************
