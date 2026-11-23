@@ -16,7 +16,7 @@
 html {
   color-scheme: light dark;
 
-  --backgroundcolor: white;
+  --backgroundcolor: #e9e5da;
 
   background-color: var(--backgroundcolor);
 }
@@ -71,7 +71,7 @@ main {
   padding: 3em 3em;
   list-style: none;
   gap: 2em;
-  width: 75%;
+  width: 45%;
 
   /* de zwarte rand met witte gaatjes */
 
@@ -94,10 +94,21 @@ main {
     left 1rem top;
 
   background-size: 1rem 100%;
-  background-color: #222;
+  background-color: #181818;
   background-repeat: no-repeat;
 
   /* Andere groottes en positites voor mobile versie */
+
+  @media (max-width: 70rem) {
+    width: 70%;
+    padding: 2em 2em;
+
+    background-position:
+      left 0.5rem top,
+      right 0.5rem top;
+
+    background-size: 0.8rem 100%;
+  }
 
   @media (max-width: 40rem) {
     width: 90%;
@@ -109,6 +120,29 @@ main {
 
     background-size: 0.8rem 100%;
   }
+}
+
+.reisoverzicht {
+  width: 45%;
+  max-width: 60rem;
+}
+
+.reisrollen {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  color: black;
+  align-items: start;
+  gap: 1em;
+  width: 100%;
+  padding: 0;
+}
+
+.reisrollen li {
+  background-color: #e5ac43;
+  padding: 2rem;
 }
 
 /**************************

@@ -1,6 +1,26 @@
 # Learning log
 
+## 23-11-2026
+
+Vandaag reden mijn bussen helaas niet vanwege staking. Ik ben dus thuis zelf begonnen.
+Nu ik de filmrol al gemaakt heb heb ik het gevoel dat het nog te simpel is. Ik wil maken dat ik op een manier de filmrol kan wisselen per reis. Ik kwam dus op het idee om bovenaan de pagina een soort grid of vakjes te maken in de kleuren van filmrol verpakkingen met de namen van de landen erop. Als je er dan op 1 klikt scrollt de pagina vanzelf naarbeneden naar die rol van foto's. Ik heb een schets hiervan gemaakt:
+![schets film verpakkingen](images/huiswerk/schetsfilmrol1.jpeg)
+
+## 22-11-2026
+
+### Grid practicum gedaan en geoefend.
+
+Dit vond ik erg handig omdat ik denk dat ik zelf ook grids nodig ga hebben op mijn pagina.
+
+### filmrol gemaakt in HTML met mijn eigen fotos en gestyled in css.
+
+Ik heb de eerste versie van mijn filmrol gemaakt. Het moeilijkste hiervan was de css. Ik heb gebruik gemaakt van de gradients waar we mee geoefend hadden in het practicum. Ik wilde het helemaal zelf doen dus ik heb veel nog op moeten zoeken of moeten vragen aan AI, maar heb AI het niet laten schrijven. Uiteindelijk ben ik eruit gekomen en weet ik ook helemaal hoe het werkt.
+
 ## 20-11-2026
+
+begonnen aan het maken van mijn html pagina. Ik heb ook feedback gehad op mijn schetsen van de docent. Ik had eerst het idee om een soort camera te maken waar dan filmrol uitkomt met mijn foto's erop. Dit heb ik na feedback toch geschrapt omdat het dan een 'apparaat in een apparaat' is. Ik kan dus beter echt gebruik maken van het scherm dat ik al heb.
+
+### checkout, welk feedback heb je ontvangen?
 
 batuhan:
 De stijl bepalen van zijn onderwerp, kleuren, contrast etc.
