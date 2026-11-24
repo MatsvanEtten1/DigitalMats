@@ -1,5 +1,15 @@
 # Learning log
 
+## 24-11-2026
+
+Ik ben verder gaan werken an mijn website. Ik heb meer verpakkingen van filmrolletjes gemaakt en heb ze ook een soort 3d effect gegeven door borders toe te voegen. Ook zijn deze blokjes nu volledig responsive en passen ze aan aan de grootte van het beeld. Ik wil maken dat wanneer je op de verpakkingen klikt de pagina automatisch scrolt naar de correcte filmrol met foto's, dit moet ik nog doen.
+
+Ik heb een custom font gebruikt met font face, deze had ik gehaald uit mijn research waar ik had gekeken naar meerdere fonts die zouden passen bij het idee. Ik heb gebruik gemaakt van StintUltaExpanded, dit heeft een soort old school look dat past bij de filmrolletjes.
+
+Ook heb ik de achtergrond nu veranderd naar een gradient die steeds blauwer wordt naarmate je scrolt. Dit idee heb ik uit mijn visual research gehaald waar er gebruik gemaakt werd van veel blauwe kleuren en gradients. Ik vind het nu alleen nog niet echt mooi en zou graag iets anders willen doen met de achtergrond dus dit staat nog open voor verandering.
+
+![Filmrol blokjes en fonts](images/huiswerk/Filmrolblokjes.png)
+
 ## 23-11-2026
 
 Vandaag reden mijn bussen helaas niet vanwege staking. Ik ben dus thuis zelf begonnen.
