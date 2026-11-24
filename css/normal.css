@@ -9,6 +9,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Stint Ultra Expanded";
+  src: url(../fonts/StintUltraExpanded-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stint Ultra Condensed";
+  src: url(../fonts/StintUltraCondensed-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 /**************************
 * MARK: Custom properties
 **************************/
@@ -61,6 +75,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: repeating-linear-gradient(
+    135deg in oklch,
+    #f0f6f7,
+    #d7e9ef,
+    #b4d5e3,
+    #82b6cc,
+    #568eab,
+    #285b7a
+  );
 }
 
 /* filmrol styling */
@@ -124,7 +147,16 @@ main {
 
 .reisoverzicht {
   width: 45%;
-  max-width: 60rem;
+
+  @media (max-width: 70rem) {
+    width: 70%;
+  }
+
+  @media (max-width: 40rem) {
+    width: 90%;
+  }
+
+  margin-bottom: 5rem;
 }
 
 .reisrollen {
@@ -140,9 +172,62 @@ main {
   padding: 0;
 }
 
-.reisrollen li {
+.reisrol {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+
+  border-radius: 0.3rem;
+}
+
+.reisrol:nth-child(1) {
   background-color: #e5ac43;
-  padding: 2rem;
+  border-bottom: 0.5rem solid #a87824;
+  border-right: 0.5rem solid #a87824;
+}
+
+.reisrol:nth-child(2) {
+  background-color: #9fb5a6;
+  border-bottom: 0.5rem solid #5f8071;
+  border-right: 0.5rem solid #5f8071;
+}
+
+.reisrol:nth-child(3) {
+  background-color: #7f9ead;
+  border-bottom: 0.5rem solid #42677c;
+  border-right: 0.5rem solid #42677c;
+}
+
+.reisrol:nth-child(4) {
+  background-color: #c97855;
+  border-bottom: 0.5rem solid #8f4630;
+  border-right: 0.5rem solid #8f4630;
+}
+
+.roltitel {
+  font-size: 0.7rem;
+}
+
+.reisrol h3 {
+  font-family: "Stint Ultra Expanded", serif;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.rolinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 0.08rem solid #181818;
+  padding-top: 0.5rem;
+
+  font-size: 0.8rem;
+}
+
+.roltitel,
+.rolinfo {
+  font-family: "Courier New", Courier, monospace;
 }
 
 /**************************
