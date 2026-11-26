@@ -2,6 +2,16 @@
 
 ## 25-11-2026
 
+Vandaag ben ik begonnen met het toevoegen van de rest van de reizen, ik heb nu 4 reizen. Vervolgens ben ik begonnen met het maken van een light en dark versie, hiervoor heb ik bedacht dat ik voor de light versie lichte kleuren van de fotos gebruik voor de achtergrond en donkere kleuren uit de fotos voor de dark versie. Hiervoor heb ik gebruik gemaakt van wat ik heb geleerd uit het practicum over light and dark. Vervolgens heb ik de header titel aangepast en het gestyled met css.
+
+Als laatste heb ik de filmrol verpakkingen boven aan het scherm ook echt klikbaar gemaakt met een hover state. Als je hovered dan beweegt het doosje een beetje naarboven en als je klikt scrolt de pagina uitzichzelf naar de bijbehorende filmrol.
+
+Als ik kijk naar de gestalt principes op mijn pagina ben ik denk ik best goed onderweg. Ik maak gebruik van good figure bij de filmroldoosjes, maar ook proximity omdat ze dicht bij elkaar staan. Ook de titels boven de filmrollen staan dicht bij de rol zelf en dat geeft aan dat die titel bij die rol hoort. Ook zijn de blokjes symmetrisch verdeeld over de pagina.
+
+![Light en dark mode, hover states](images/huiswerk/LightDarkHover.png)
+
+## 25-11-2026
+
 Vandaag heb ik een grote sprong gemaakt in mijn ontwerp. Ik wilde graag nog iets anders doen met mijn achtergrond dan een simpele gradient. Ik heb samen met Barbara mijn ontwerp besproken en of ze misschien nog een idee had voor mijn achtergrond. Zij kwam met het idee om de achtergrondkleur te veranderen op basis van de foto die te zien is. Dit vond ik wel een sterk idee omdat ik in mijn visual research ook gehaald had dat foto's van mij gegroepeerd kunnen worden op kleur. Dit breng ik dan soort van terug door de achtergrond aan te passen op basis van een kleur uit de foto. Dit bleek een flinke uitdaging te zijn omdat ik moest uitzoeken hoe je de kleur kan aanpassen met hoeveel procent een foto in beeld is. Uiteindelijk heb ik om hulp gevraagd aan Justus, Diederik, Sanne en een studentassistent hoe ik dit kon doen. Het duurde even maar na feedback van de docenten en een beetje hulp van ChatGPT is het gelukt. Ik heb er wel voor gezorgd dat ik het volledig begrijp en daar heeft Sanne mij ook nog goed bij geholpen.
 
 Hieronder staan twee losse screenshots van kleuren, deze hebben op de website een smooth transition ertussen.
