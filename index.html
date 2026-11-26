@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="jouw naam" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="light dark" />
 
     <title>DigitalMats</title>
     <link rel="stylesheet" href="./css/normal.css" />
@@ -15,89 +15,234 @@
   <body>
     <header>
       <h1>Digital garden van Mats van Etten</h1>
+
+      <form>
+        <label for="auto-mode">
+          <input type="radio" id="auto-mode" name="color-theme" value="auto" />
+          Auto
+        </label>
+
+        <label for="light-mode">
+          <input
+            type="radio"
+            id="light-mode"
+            name="color-theme"
+            value="light"
+            checked
+          />
+          Light
+        </label>
+
+        <label for="dark-mode">
+          <input type="radio" id="dark-mode" name="color-theme" value="dark" />
+          Dark
+        </label>
+      </form>
     </header>
 
     <main>
       <section class="reisoverzicht">
+        <h2>Travel Archive</h2>
+
         <nav>
           <ul class="reisrollen">
             <li class="reisrol">
-              <span class="roltitel">TRAVEL ARCHIVE</span>
-              <h3>Madeira</h3>
-              <div class="rolinfo">
-                <span>ROLL 001</span>
-                <span>2026</span>
-              </div>
+              <a href="#madeira">
+                <span class="roltitel">TRAVEL ARCHIVE</span>
+                <h3>Madeira</h3>
+                <div class="rolinfo">
+                  <span>ROLL 001</span>
+                  <span>2026</span>
+                </div>
+              </a>
             </li>
+
             <li class="reisrol">
-              <span class="roltitel">TRAVEL ARCHIVE</span>
-              <h3>Portugal</h3>
-              <div class="rolinfo">
-                <span>ROLL 002</span>
-                <span>2026</span>
-              </div>
+              <a href="#portugal">
+                <span class="roltitel">TRAVEL ARCHIVE</span>
+                <h3>Portugal</h3>
+                <div class="rolinfo">
+                  <span>ROLL 002</span>
+                  <span>2026</span>
+                </div>
+              </a>
             </li>
+
             <li class="reisrol">
-              <span class="roltitel">TRAVEL ARCHIVE</span>
-              <h3>Griekenland</h3>
-              <div class="rolinfo">
-                <span>ROLL 003</span>
-                <span>2026</span>
-              </div>
+              <a href="#griekenland">
+                <span class="roltitel">TRAVEL ARCHIVE</span>
+                <h3>Griekenland</h3>
+                <div class="rolinfo">
+                  <span>ROLL 003</span>
+                  <span>2026</span>
+                </div>
+              </a>
             </li>
+
             <li class="reisrol">
-              <span class="roltitel">TRAVEL ARCHIVE</span>
-              <h3>Ibiza</h3>
-              <div class="rolinfo">
-                <span>ROLL 004</span>
-                <span>2026</span>
-              </div>
+              <a href="#ibiza">
+                <span class="roltitel">TRAVEL ARCHIVE</span>
+                <h3>Ibiza</h3>
+                <div class="rolinfo">
+                  <span>ROLL 004</span>
+                  <span>2026</span>
+                </div>
+              </a>
             </li>
           </ul>
         </nav>
       </section>
 
-      <ul class="filmrol">
-        <li style="--fotokleur: #5f8078">
-          <img src="images/Fotos/madeira/Madeira1.jpg" />
-        </li>
-        <li style="--fotokleur: #c46d25">
-          <img src="images/Fotos/madeira/Madeira2.jpg" />
-        </li>
-        <li style="--fotokleur: #72873b">
-          <img src="images/Fotos/madeira/Madeira3.jpg" />
-        </li>
-        <li style="--fotokleur: #7b8479">
-          <img src="images/Fotos/madeira/Madeira4.jpg" />
-        </li>
-        <li style="--fotokleur: #335750">
-          <img src="images/Fotos/madeira/Madeira5.jpg" />
-        </li>
-        <li style="--fotokleur: #c9c595">
-          <img src="images/Fotos/madeira/Madeira6.jpg" />
-        </li>
-        <li style="--fotokleur: #d74637">
-          <img src="images/Fotos/madeira/Madeira7.jpg" />
-        </li>
-        <li style="--fotokleur: #353e28">
-          <img src="images/Fotos/madeira/Madeira8.jpg" />
-        </li>
-        <li style="--fotokleur: #7b8b75">
-          <img src="images/Fotos/madeira/Madeira9.jpg" />
-        </li>
-        <li style="--fotokleur: #fff">
-          <img src="images/Fotos/madeira/Madeira10.jpg" />
-        </li>
-        <li style="--fotokleur: #997a36">
-          <img src="images/Fotos/madeira/Madeira11.jpg" />
-        </li>
-        <li style="--fotokleur: #ee4d56">
-          <img src="images/Fotos/madeira/Madeira12.jpg" />
-        </li>
-        <li style="--fotokleur: #506908">
-          <img src="images/Fotos/madeira/Madeira13.jpg" />
-        </li>
-      </ul>
+      <section class="reis" id="madeira">
+        <h2>Madeira</h2>
+
+        <ul class="filmrol">
+          <li style="--fotokleur: light-dark(#5f7d06, #6a8981)">
+            <img src="images/Fotos/madeira/Madeira1.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#af5811, #494a15)">
+            <img src="images/Fotos/madeira/Madeira2.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#7e9748, #2a3719)">
+            <img src="images/Fotos/madeira/Madeira3.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#a6b1a8, #132b0f)">
+            <img src="images/Fotos/madeira/Madeira4.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#86a39c, #295149)">
+            <img src="images/Fotos/madeira/Madeira5.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#a9a36e, #5e735f)">
+            <img src="images/Fotos/madeira/Madeira6.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#ee7058, #48600f)">
+            <img src="images/Fotos/madeira/Madeira7.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#384323, #1e260f)">
+            <img src="images/Fotos/madeira/Madeira8.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#859379, #2e3d28)">
+            <img src="images/Fotos/madeira/Madeira9.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#e7eee3, #3e4e3b)">
+            <img src="images/Fotos/madeira/Madeira10.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#c5b979, #684f29)">
+            <img src="images/Fotos/madeira/Madeira11.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#bf1827, #531a16)">
+            <img src="images/Fotos/madeira/Madeira12.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#8a9e2f, #183e0a)">
+            <img src="images/Fotos/madeira/Madeira13.jpg" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="reis" id="portugal">
+        <h2>Portugal</h2>
+
+        <ul class="filmrol">
+          <li style="--fotokleur: light-dark(#477048, #1c4315)">
+            <img src="images/Fotos/portugal/Portugal1.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#ffdc7e, #2f1c0e)">
+            <img src="images/Fotos/portugal/Portugal5.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#fbfbfb, #3c3c3c)">
+            <img src="images/Fotos/portugal/Portugal6.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#838383, #505050)">
+            <img src="images/Fotos/portugal/Portugal7.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#79a3a0, #2f3930)">
+            <img src="images/Fotos/portugal/Portugal8.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#deb06c, #516d5f)">
+            <img src="images/Fotos/portugal/Portugal9.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#f8f3d5, #3f4330)">
+            <img src="images/Fotos/portugal/Portugal10.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#d1c7ad, #3c4708)">
+            <img src="images/Fotos/portugal/Portugal11.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#b88d50, #5a6528)">
+            <img src="images/Fotos/portugal/Portugal12.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#98672d, #4b4912)">
+            <img src="images/Fotos/portugal/Portugal13.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#5c7c6d, #203714)">
+            <img src="images/Fotos/portugal/Portugal14.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#e6c782, #6f2e1b)">
+            <img src="images/Fotos/portugal/Portugal15.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#a9a51d, #264401)">
+            <img src="images/Fotos/portugal/Portugal16.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#e7d5a7, #465c4f)">
+            <img src="images/Fotos/portugal/Portugal17.jpg" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="reis" id="griekenland">
+        <h2>Griekenland</h2>
+
+        <ul class="filmrol">
+          <li style="--fotokleur: light-dark(#8fa131, #091807)">
+            <img src="images/Fotos/Griekenland/Griekenland1.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#fff6ae, #462910)">
+            <img src="images/Fotos/Griekenland/Griekenland2.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#ac782b, #632a07)">
+            <img src="images/Fotos/Griekenland/Griekenland3.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#fdd986, #49381f)">
+            <img src="images/Fotos/Griekenland/Griekenland4.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#487377, #163938)">
+            <img src="images/Fotos/Griekenland/Griekenland5.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#9e6a79, #0c274e)">
+            <img src="images/Fotos/Griekenland/Griekenland6.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#f8f3d5, #55190d)">
+            <img src="images/Fotos/Griekenland/Griekenland7.jpg" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="reis" id="ibiza">
+        <h2>Ibiza</h2>
+
+        <ul class="filmrol">
+          <li style="--fotokleur: light-dark(#acb7b6, #192e21)">
+            <img src="images/Fotos/Ibiza/Ibiza1.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#73b8c7, #283309)">
+            <img src="images/Fotos/Ibiza/Ibiza2.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#dc7c3c, #494738)">
+            <img src="images/Fotos/Ibiza/Ibiza3.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#0094c0, #3e5a2c)">
+            <img src="images/Fotos/Ibiza/Ibiza4.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#fdf1da, #3d2d20)">
+            <img src="images/Fotos/Ibiza/Ibiza5.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#bf5d4d, #466752)">
+            <img src="images/Fotos/Ibiza/Ibiza6.jpg" />
+          </li>
+          <li style="--fotokleur: light-dark(#67afa5, #5f5a3d)">
+            <img src="images/Fotos/Ibiza/Ibiza7.jpg" />
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer></footer>

@@ -1,5 +1,14 @@
 # Learning log
 
+## 25-11-2026
+
+Vandaag heb ik een grote sprong gemaakt in mijn ontwerp. Ik wilde graag nog iets anders doen met mijn achtergrond dan een simpele gradient. Ik heb samen met Barbara mijn ontwerp besproken en of ze misschien nog een idee had voor mijn achtergrond. Zij kwam met het idee om de achtergrondkleur te veranderen op basis van de foto die te zien is. Dit vond ik wel een sterk idee omdat ik in mijn visual research ook gehaald had dat foto's van mij gegroepeerd kunnen worden op kleur. Dit breng ik dan soort van terug door de achtergrond aan te passen op basis van een kleur uit de foto. Dit bleek een flinke uitdaging te zijn omdat ik moest uitzoeken hoe je de kleur kan aanpassen met hoeveel procent een foto in beeld is. Uiteindelijk heb ik om hulp gevraagd aan Justus, Diederik, Sanne en een studentassistent hoe ik dit kon doen. Het duurde even maar na feedback van de docenten en een beetje hulp van ChatGPT is het gelukt. Ik heb er wel voor gezorgd dat ik het volledig begrijp en daar heeft Sanne mij ook nog goed bij geholpen.
+
+Hieronder staan twee losse screenshots van kleuren, deze hebben op de website een smooth transition ertussen.
+
+![Achtergrondkleur voorbeeld 1](images/huiswerk/AchtergrondKleur1.png)
+![Achtergrondkleur voorbeeld 2](images/huiswerk/AchtergrondKleur2.png)
+
 ## 24-11-2026
 
 Ik ben verder gaan werken an mijn website. Ik heb meer verpakkingen van filmrolletjes gemaakt en heb ze ook een soort 3d effect gegeven door borders toe te voegen. Ook zijn deze blokjes nu volledig responsive en passen ze aan aan de grootte van het beeld. Ik wil maken dat wanneer je op de verpakkingen klikt de pagina automatisch scrolt naar de correcte filmrol met foto's, dit moet ik nog doen.
